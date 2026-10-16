@@ -57,14 +57,18 @@ The **itil** role was assigned at the **group** level rather than to individuals
 **Scenario:** Remote user unable to connect to VPN.
 **Actions:** Performed first-line troubleshooting (confirmed internet access, restarted the client, rebooted). Documented the steps and escalated to the IT Network Team. Used impersonation to resolve the ticket as the network admin.
 
-![VPN ticket escalated](inc2-escalated.png)
+![VPN ticket created](inc2-created.png)
+![Escalated to Network Team](inc2-escalated.png)
+![Impersonating network admin](inc2-impersonating-kevin.png)
 ![Resolved by Network Team](inc2-resolved-by-network-team.png)
+![Full activity stream](inc2-resolution-activity-stream.png)
 
 ### Ticket 3: Printer Failure with CI and On Hold (INC0010010)
 **Scenario:** Shared Sales printer showing a false paper jam.
 **Actions:** Created the printer as a Configuration Item (SALES-PRINTER-01) and linked it to the ticket. Routed directly to Desktop Support, placed the ticket On Hold while awaiting a replacement part, and gave the user a workaround.
 
 ![Printer CI](inc3-printer-ci.png)
+![Incident created](inc3-incident-created.png)
 ![On Hold](inc3-on-hold.png)
 ![Resolved](inc3-resolved.png)
 
@@ -73,20 +77,23 @@ The **itil** role was assigned at the **group** level rather than to individuals
 **Actions:** Identified this as a service request, not an incident. Ordered the catalog item on the user's behalf, resolved the incident with a reference to the request, and fulfilled the catalog task.
 
 ![Catalog order](inc4-catalog-order.png)
+![Request created](inc4-request-created.png)
 ![Request fulfilled](inc4-request-fulfilled.png)
 
 ### Ticket 5: Outage with Parent/Child Incidents (INC0010012)
 **Scenario:** Shared drive unreachable across multiple departments.
 **Actions:** Created a Priority 1 parent incident and linked individual user reports as child incidents. Resolving the parent closed out the related reports, so every affected user was updated and no work was duplicated.
 
+![Parent incident](inc5-parent-incident.png)
 ![Parent and child incidents](inc5-parent-child-incidents.png)
-![Outage resolved](inc5-resolved.png)
+![Outage resolved](inc5-resolution.png)
 
 ### Ticket 6: No Response from Caller (INC0010016)
 **Scenario:** User reported Outlook crashing, then stopped responding.
 **Actions:** Requested more information, set the ticket to On Hold (Awaiting Caller), made three documented contact attempts, then resolved it with clear notes that the user could reopen it.
 
-![Awaiting caller](inc6-awaiting-caller.png)
+![Awaiting caller](inc6-created-awaiting-caller.png)
+![Follow-up attempts](inc6-activity-notes.png)
 ![Resolved, no response](inc6-resolved-no-response.png)
 
 ---
@@ -95,7 +102,6 @@ The **itil** role was assigned at the **group** level rather than to individuals
 
 Wrote and published **KB0010001: How to Unlock a Locked User Account**, based on Ticket 1. The article went through the IT knowledge base approval workflow before publishing.
 
-![KB pending approval](kb-pending-approval.png)
 ![KB published](kb-unlock-account-published.png)
 
 ---
@@ -103,11 +109,10 @@ Wrote and published **KB0010001: How to Unlock a Locked User Account**, based on
 ## Phase 4: Reporting
 
 Built reports on my lab tickets, filtered to the three IT assignment groups:
-- Tickets by Priority
-- Tickets by State
-- Tickets by Assignment Group
 
-![Tickets by priority](report-tickets-by-priority.png)
+![Tickets by priority](report-tickets-by-priority-chart.png)
+![Tickets by state](report-tickets-by-state-chart.png)
+![Tickets by assignment group](report-tickets-by-assignment-group-chart.png)
 
 ---
 
