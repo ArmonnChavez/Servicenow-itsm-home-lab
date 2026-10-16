@@ -69,7 +69,7 @@ The **itil** role was assigned at the **group** level rather than to individuals
 
 ![Printer CI](inc3-printer-ci.png)
 ![Incident created](inc3-incident-created.png)
-![On Hold](inc3-on-hold.png)
+![On Hold](inc3-impersonating-maria-inc-on-hold.png)
 ![Resolved](inc3-resolved.png)
 
 ### Ticket 4: Incident vs. Request (INC0010011)
@@ -102,7 +102,7 @@ The **itil** role was assigned at the **group** level rather than to individuals
 
 Wrote and published **KB0010001: How to Unlock a Locked User Account**, based on Ticket 1. The article went through the IT knowledge base approval workflow before publishing.
 
-![KB published](kb-unlock-account-published.png)
+![KB published](kb-unlock-account-oublished.png)
 
 ---
 
